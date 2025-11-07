@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0 ;
+}
+.common-head{
+    font-size:36px;
+    font-weight: 300;
+    font-family:"Poppins", sans-serif; 
+    line-height: 64px;
+    color: #3F4255;
+}
+
+/* -------------------------- nav part start ------------------- */
+.main-menu{
+    background: #fff !important;
+    border-bottom: 1px solid lightgray!important;
+}
+.navbar img{
+    width: 184px;
+    padding: 24px 0;
+}
+.navbar ul{
+    gap: 48px;
+    align-items: center;
+}
+.navbar ul li a{
+        font-size:16px;
+        font-family: "Martel Sans", sans-serif;
+        font-weight: 700;
+        color: gray !important;
+ }
+ .nav-item button{
+    width: 48px;
+    height: 48px;
+    background: white !important;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+/* -------------------------- nav part start ------------------- */
+
+/* --------------------------- banner part start ------------------- */
+   #banner{
+    padding-top: 120px;
+   }
+   .banner-text{
+    padding-bottom: 88px;
+   }
+.banner-text h1{
+    margin-bottom: 0 !important;
+    width: 526px;
+    font-size:58px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+.banner-btn{
+    display: flex;
+    gap:24px;
+}
+.banner-btn button{
+    width:118px;
+    height: 72px;
+    border: 2px solid #FFE145;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-btn h2{
+    width: 70px;
+    font-size: 16px;
+    font-weight:700;
+    font-family: "Martel Sans", sans-serif;
+    color: #3F4255;
+    line-height: 20px;
+    text-align: center;
+}
+
+.banner-btn span{
+     font-size:12px;
+     font-weight: 400;
+    font-family: "Martel Sans", sans-serif;
+    line-height: 16px;
+    color: #3F4255;
+
+}
+
+.banner-food-dish{
+    margin-top:px;
+}
+
+.delivaryItem{
+    width: 872px;
+    height: 104px;
+    display: flex;
+    gap: 46px;
+    justify-content:end;
+    align-items: center;
+    background: white!important;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.delivarySingelItem{
+    display: flex;
+    gap: 16px;
+}
+.delivaryItemText{
+    width:182px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:"Martel Sans", sans-serif; 
+    color: #3F4255;
+    line-height: 24px;
+}
+
+/* --------------------------- banner part End ------------------- */
+
+/* ---------------------------- Restaurants part start ---------------------------- */
+#restaurant{
+    padding-top: 48px;
+}
+.restaurantlItem{
+    margin-top: 48px;
+}
+.headText{
+    display: flex;
+    justify-content: space-between;
+}
+.restaurant-btn button{
+    width:118px;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    color:#F2F4FA;
+    float: right;
+}
+.restaurant-btn a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Martel Sans", sans-serif;
+    line-height: 20px;
+    color: #9093A6;
+}
+.prr{
+    width: 48px;
+    height: 48px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.nxt{
+     width: 48px;
+    height: 48px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+/* ---------------------------- Restaurants part end---------------------------- */
+
+/* ---------------------------------- Email part start -------------------------- */
+#Email{
+    margin-top: 72px;
+    background: #F2F4FA;
+}
+.common-head .EmailText{
+    padding-top: 80px;
+}
+
+.EmailTextHead p{
+    padding-top:24px;
+    padding-bottom:81px;
+    width:424px;
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Martel Sans", sans-serif;  
+    line-height: 24px;
+}
+.EmailInputItem{
+    padding-top: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.EmailInputItem input{
+    width:336px;
+    height: 72px;
+    border: none;
+    border-radius: 6px;
+    background: #fff;
+    position: relative;
+    color: #9093A6;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:"Martel Sans", sans-serif;  
+    padding-left: 30px;
+}
+.fa-location-dot{
+    position: absolute ;
+    z-index: 2;
+    left: 56%;
+    top: 322%;
+    width: 16px;
+    padding:0 12px;
+    text-align: center;
+    color: #D4D7E5;
+    
+}
+.EmailInputItem button{
+    width: 88px;
+    height: 72px;
+    border: none;
+    border-radius:4px ;
+    background: #FFE145;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Martel Sans", sans-serif;  
+    color:#B79C10 ;
+}
+.EmailInputItem input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Martel Sans", sans-serif; 
+    color:#B7B9C3; 
+    
+    
+}
+
+/* ---------------------------------- Email part end -------------------------- */
+
+/*-------------------------------------- Specialities part start ------------------ */
+#Specialities{
+    margin-top: 72px;
+}
+.specialitieslItem{
+    display: flex;
+    gap:24px;
+}
+.specialitiesSingelItem{
+    width: 136px;
+    height: 136px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 72px;
+    
+}
+    .specialitiesSingelItem img{
+    margin-top: 24px;
+    width: 48px;
+    height: 48px;
+  
+
+}
+.specialitieslItem p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Martel Sans", sans-serif; 
+    line-height: 24px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+
+    
+}
+
+
+/*-------------------------------------- Specialities part End ---------------------- */
+
+/*-------------------------------------- counter part start  -------------------------*/
+#counterup{
+ background: url(/image/bg.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+
+.counterItem{
+    padding: 79px 0;
+
+}
+
+.counterSingelItem{
+    width: 126px;
+    height: 126px;
+    border-radius: 50%;
+    background: #FFE145;
+   
+}
+
+.counterSingelItem::before{
+    content: '' ;
+    width: 126px;
+    height: 126px;
+    border: 1px solid #B79C10;
+    border-radius: 50%;
+}
+.counterSingelItem h2{
+    width: 68px;
+    font-size: 58px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    
+    
+    
+     
+}
+.counterItem p{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    padding-bottom: 45px;
+}
+
+/*-------------------------------------- counter part End -------------------------*/
+
+/*--------------------------------------- map part start ---------------------- */
+#map{
+    margin-top: 72px;
+}
+
+/*----------------------------------------- map part end -------------------------- */
+
+/* ---------------------- instra part start --------------------- */
+
+#Instra{
+    margin-top: 72px;
+}
+.instraImage{
+    margin-top:21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instraSingleImage img{
+    width: 296px;
+    height:299px;
+
+}
+
+/* ---------------------- instra part End ---------------------------- */
+
+/*-------------------------------- footer part start ------------------- */
+
+#footer{
+    margin-top: 72px;
+    background: #3F4255;
+}
+
+.footerImage{
+    width: 184px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #D4D7E5;
+
+}
+.footerAppImage{
+  display: flex;
+  gap: 8px;
+padding-top: 48px;
+padding-bottom: 48px;
+}
+.footerAppImage .appImage1 img{
+    width: 79px;
+}
+
+.footerAppImage .appImage2 img{
+    width: 86px;
+}
+
+.footerlItem{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footerSingelItem h2{
+    font-size:24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    line-height: 32px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.footerSingelItem  ul li a{
+    font-size:16px;
+    font-weight: 700;
+    font-family: "Martel Sans", sans-serif;  
+    color:#D4D7E5;
+    line-height: 20px;
+    margin-bottom: 16px;
+
+}
+
+/* .contfooter li a {
+    margin-left: 85px;
+    line-height: 24px ;
+} */
+
+.socialItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialIconItem{
+   
+    display: flex;
+    gap: 24px;
+}
+
+ .socialIconItem .socialSingelItem a{
+    font-size: 24px;
+    color: #D4D7E5;
+ }
+
+ .socialTex{
+ padding-top: 105px;
+ }
+ .socialText ul {
+    display: flex;
+    gap: 60px;
+ }
+ .socialText ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    font-family: "Martel Sans", sans-serif;  
+    color: #D4D7E5;
+    line-height: 16px;
+ }
+ .socialItem{
+    padding-top: 49px;
+    padding-bottom: 48px;
+ }
+/*--------------------------------- footer part End   -----------------------*/
