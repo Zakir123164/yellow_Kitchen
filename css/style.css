@@ -468,3 +468,231 @@ padding-bottom: 48px;
     padding-bottom: 48px;
  }
 /*--------------------------------- footer part End   -----------------------*/
+
+
+
+/* ============================= */
+/* RESPONSIVE DESIGN START HERE  */
+/* ============================= */
+
+/* ---------- Large Devices (1200px and up) ---------- */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
+
+/* ---------- Laptops (992px - 1199px) ---------- */
+@media (max-width: 1199px) {
+  .banner-text h1 {
+    width: 100%;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .delivaryItem {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .specialitieslItem {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .restaurantlItem {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+}
+
+/* ---------- Tablets (768px - 991px) ---------- */
+@media (max-width: 991px) {
+  .navbar ul {
+    gap: 24px;
+  }
+
+  .banner-text h1 {
+    font-size: 42px;
+    line-height: 52px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner-btn {
+    justify-content: center;
+  }
+
+  .delivaryItem {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    height: auto;
+    padding: 16px;
+  }
+
+  .EmailInputItem {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .EmailInputItem input {
+    width: 90%;
+  }
+
+  .specialitieslItem {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .specialitiesSingelItem {
+    width: 140px;
+    height: 140px;
+  }
+
+  .instraImage {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .instraSingleImage img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .footerlItem {
+    flex-wrap: wrap;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .socialItem {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+/* ---------- Mobile Landscape (576px - 767px) ---------- */
+@media (max-width: 767px) {
+  .navbar ul {
+    display: none; /* hide desktop nav */
+  }
+
+  .nav-item button {
+    display: block;
+  }
+
+  .banner-text h1 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .banner-btn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-btn button {
+    width: 100%;
+    height: 60px;
+  }
+
+  .EmailInputItem input {
+    width: 100%;
+  }
+
+  .EmailInputItem button {
+    width: 100%;
+    height: 60px;
+  }
+
+  .specialitieslItem {
+    flex-wrap: wrap;
+  }
+
+  .specialitiesSingelItem {
+    width: 120px;
+    height: 120px;
+  }
+
+  .counterItem {
+    text-align: center;
+  }
+
+  .counterSingelItem {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 16px;
+  }
+
+  .instraSingleImage img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .footerlItem {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footerAppImage {
+    justify-content: center;
+  }
+
+  .socialText ul {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+}
+
+/* ---------- Small Phones (up to 575px) ---------- */
+@media (max-width: 575px) {
+  .common-head {
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .banner-text h1 {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .banner-btn button {
+    height: 56px;
+  }
+
+  .EmailTextHead p {
+    width: 100%;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .specialitiesSingelItem {
+    width: 100px;
+    height: 100px;
+  }
+
+  .instraSingleImage img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .footerSingelItem h2 {
+    font-size: 20px;
+  }
+
+  .footerSingelItem ul li a {
+    font-size: 14px;
+  }
+
+  .socialItem {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
